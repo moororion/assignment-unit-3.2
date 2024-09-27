@@ -54,9 +54,10 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('(Problem 3.a) Some stars using while:');
+let starss = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 let i = 0;
-while (i < stars.length) {
-  console.log(stars[i]);
+while (i < starss.length) {
+  console.log(starss[i]);
   i++;
 }
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
